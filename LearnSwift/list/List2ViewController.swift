@@ -88,7 +88,6 @@ class List2ViewController: UIViewController,UIScrollViewDelegate {
         imageChange()
     }
     func imageChange() {
-        
         if scrollView.contentOffset.x > mainWight{
             index += 1
             buttonIndex += 1
@@ -124,14 +123,5 @@ class List2ViewController: UIViewController,UIScrollViewDelegate {
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

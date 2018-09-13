@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EB83CDE214A361D0095C6DB /* List3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EB83CDC214A361D0095C6DB /* List3ViewController.swift */; };
+		6EB83CDF214A361D0095C6DB /* List3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6EB83CDD214A361D0095C6DB /* List3ViewController.xib */; };
 		6EFCE02D2147A47000AABD12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCE02C2147A47000AABD12 /* AppDelegate.swift */; };
 		6EFCE02F2147A47000AABD12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCE02E2147A47000AABD12 /* ViewController.swift */; };
 		6EFCE0322147A47000AABD12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFCE0302147A47000AABD12 /* Main.storyboard */; };
@@ -24,6 +26,8 @@
 		0A010156EECD10FDFE6B75FF /* Pods_LearnSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LearnSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		115C42FCB2F92E87A4B4DBFA /* Pods-LearnSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LearnSwift/Pods-LearnSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		6BF69DDF2A5F21C5EBCA2FBF /* Pods-LearnSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LearnSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-LearnSwift/Pods-LearnSwift.release.xcconfig"; sourceTree = "<group>"; };
+		6EB83CDC214A361D0095C6DB /* List3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List3ViewController.swift; sourceTree = "<group>"; };
+		6EB83CDD214A361D0095C6DB /* List3ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = List3ViewController.xib; sourceTree = "<group>"; };
 		6EFCE0292147A47000AABD12 /* LearnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EFCE02C2147A47000AABD12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EFCE02E2147A47000AABD12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +94,8 @@
 				6EFCE0432147A53B00AABD12 /* List1ViewController.xib */,
 				6EFCE0462147AD2A00AABD12 /* List2ViewController.swift */,
 				6EFCE0472147AD2A00AABD12 /* List2ViewController.xib */,
+				6EB83CDC214A361D0095C6DB /* List3ViewController.swift */,
+				6EB83CDD214A361D0095C6DB /* List3ViewController.xib */,
 			);
 			path = list;
 			sourceTree = "<group>";
@@ -175,6 +181,7 @@
 				6EFCE0452147A53B00AABD12 /* List1ViewController.xib in Resources */,
 				6EFCE03A2147A47100AABD12 /* LaunchScreen.storyboard in Resources */,
 				6EFCE0372147A47100AABD12 /* Assets.xcassets in Resources */,
+				6EB83CDF214A361D0095C6DB /* List3ViewController.xib in Resources */,
 				6EFCE0322147A47000AABD12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -229,6 +236,7 @@
 				6EFCE02F2147A47000AABD12 /* ViewController.swift in Sources */,
 				6EFCE0482147AD2A00AABD12 /* List2ViewController.swift in Sources */,
 				6EFCE02D2147A47000AABD12 /* AppDelegate.swift in Sources */,
+				6EB83CDE214A361D0095C6DB /* List3ViewController.swift in Sources */,
 				6EFCE0352147A47000AABD12 /* LearnSwift.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
