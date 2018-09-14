@@ -16,13 +16,21 @@ class List3ViewController: UIViewController{
     var maskView: UIView!
     var cellRect: CGRect!
     var changeRect: CGRect!
-    //MARK: --life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         waterfallCollectionView()
     }
+    //滑动隐藏导航栏
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let y1 = scrollView.contentOffset.y
+        let y = scrollView.panGestureRecognizer.velocity(in: scrollView).y
+        if y < -5{
+            self.navigationController?.setNavigationBarHidden(true, animated: true)
+        }else if y > 5{
+            self.navigationController?.setNavigationBarHidden(false, animated: true)
+        }
+    }
     private func waterfallCollectionView() {
-        width = (view.bounds.size.width - 20)/3
         let layout = WaterCollectionViewLayout()
         layout.queueNum = 2
         images = []
@@ -56,7 +64,7 @@ class List3ViewController: UIViewController{
     }
     
     @objc func showPic(btn:UIButton){
-        UIView.animate(withDuration: 1, animations: {
+        UIView.animate(withDuration: 0.5, animations: {
             btn.frame = self.cellRect
         }) { (finish) in
             btn.removeFromSuperview()
@@ -66,7 +74,6 @@ class List3ViewController: UIViewController{
         }
     }
 }
-
 extension List3ViewController: UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     //MARK: --UICollectionViewDelegate
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
